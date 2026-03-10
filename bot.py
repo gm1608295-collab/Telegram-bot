@@ -5,7 +5,7 @@ from datetime import datetime, time, timedelta
 import time as t
 
 # ================= CONFIG =================
-TOKEN = "8228216368:AAGbqcZrYWjnbpZ5_HoAMdp7MH_ud5o-Niw"
+TOKEN = os.getenv("8228216368:AAGbqcZrYWjnbpZ5_HoAMdp7MH_ud5o-Niw")
 USER_FILE = "users.json"
 
 # Daily reset
